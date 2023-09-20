@@ -1,3 +1,5 @@
+#this code will calculate the column number of excel column head(A - 1, AA-28, XFD - 16384)
+
 def column_number(chara):
   chara = chara.upper()
   a = len(chara)
